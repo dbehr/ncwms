@@ -26,7 +26,7 @@ RUN echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main\ndeb-
 ENV EDAL_VERSION edal-1.4.1
 RUN mkdir /edal && \
     cd /edal && \
-    git clone https://github.com/Reading-eScience-Centre/edal-java.git && \
+    git clone https://github.com/dbehr/edal-java.git && \
     cd edal-java && \
     git checkout ${EDAL_VERSION} && \
     JAVA_HOME=/usr/lib/jvm/java-8-oracle mvn clean install

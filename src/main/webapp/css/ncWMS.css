@@ -1,7 +1,7 @@
 body {
-    background-color: Aliceblue;
-    color: Darkslateblue;
-    font-family: Verdana;
+    background-color: rgba(0,152,216,0.2);
+    color: rgb(96,110,117);
+    font-family: Verdana,sans-serif;
     font-size: 10pt;
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ img, form, fieldset {
     padding: 10px;
 }
 h1, h2, h3, h4, h5, h6, table, form, p, ul, ol, link {
-    color: Steelblue;
+    color: rgb(96,110,117);
     font-weight: normal;
     margin-bottom: 10px;
     margin-top: 0;
@@ -39,10 +39,10 @@ h6 {
     font-size: 1em;
 }
 a:visited {
-    color: #4A7396;
+    color: #606e75;
 }
 a:link {
-    color: #2D80C5;
+    color: #00477a;
 }
 table {
     background-color: white;
@@ -53,14 +53,14 @@ table {
     border-width: 1px;
 }
 table th {
-    border-color: gray;
+    border-color: rgb(0,71,122);
     border-style: solid;
     border-width: 1px;
     padding: 5px;
     font-weight: bold;
 }
 table td {
-    border-color: gray;
+    border-color: rgb(0,71,122);
     border-style: solid;
     border-width: 1px;
     padding: 2px;
