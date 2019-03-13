@@ -2,7 +2,7 @@
 	white-space: normal;
 } 
 
-/* individual HZG page header */
+/* individual HZG page modifications */
 #header {
     width: 80%;
     height: 110px;
@@ -18,4 +18,11 @@
 }
 .header-right {
     float: right;
+}
+
+.olControlMousePosition {
+	background-color: white !important;
+	padding: 2px;
+	bottom: 0px !important;
+	right: 0px !important;
 }
