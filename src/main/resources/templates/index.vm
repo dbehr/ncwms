@@ -3,14 +3,15 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>$config.serverInfo.name</title>
+        <title>HZG $config.serverInfo.name</title>
     </head>
     <body>
 
-    <h1>$config.serverInfo.name</h1>
+    <h1>HZG $config.serverInfo.name</h1>
     <h3>Running ncWMS v$version</h3>
 
     <p><a href="Godiva3.html">Godiva3 interface</a></p>
+    <p><a href="Godiva3x4.html">Godiva3x4 multi-interface</a></p>
 #if($config.serverInfo.allowsGlobalCapabilities())
         <p><a href="wms?SERVICE=WMS&amp;REQUEST=GetCapabilities&amp;VERSION=1.3.0">WMS 1.3.0 Capabilities</a></p>
         <p><a href="wms?SERVICE=WMS&amp;REQUEST=GetCapabilities&amp;VERSION=1.1.1">WMS 1.1.1 Capabilities</a></p>
